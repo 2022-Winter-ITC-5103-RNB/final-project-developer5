@@ -1,0 +1,67 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display: block;
+    }
+  }
+
+header{
+    text-align: center;
+    background-color: #202849;
+}
+header img{
+    max-width: 20%;
+}
+.slide{
+    font-size: 20px;
+}
+h3{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 35px;
+}
+
+nav{
+    background-color: #202849;
+    padding: 5px 0;
+    top: 0px;
+} 
+#contact{
+    background-color: #B05675;
+    border-radius: 30px;
+}
+#contact a{
+    padding: 50px 10px;
+    font-weight: bold;
+}  
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    
+    list-style-type: none;
+}
+nav a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.info img{
+width: 480px;
+}
+
+footer{
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+

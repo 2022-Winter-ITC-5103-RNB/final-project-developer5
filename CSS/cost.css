@@ -1,0 +1,184 @@
+h2{
+    color: maroon;
+    font-size: 100%;
+    
+}
+h3{
+    color: maroon;
+    font-size: 100%;
+    margin-top: 20px;
+}
+header nav{
+    padding: 5px 0;
+}
+main nav{
+    border-bottom: 1px solid #bbb;
+    
+}
+header nav li{
+    list-style-type: none;
+}
+main nav li{
+    list-style-type: none;
+}
+
+header nav a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover{
+    background-color:yellowgreen;
+    color: black;
+}
+main nav a:hover{
+    background-color:yellowgreen;
+    color: black;
+}
+
+main nav a{
+    font-size: 15px;
+    color: white;   
+    background-color:#202849;     
+}
+
+header{
+    background-color: #202849;
+    color: white;
+    font-size: 0.8em;
+}
+h1{
+    text-align: center;
+    color: maroon;
+    font-size: large;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    
+}
+.tiledBackground {
+    background-image: url("../Images/background.jpg");
+    background-size: 970px; 
+}    
+main{
+    margin-top: 10px;
+    padding-left: 30px;
+    
+}
+p {
+    padding-bottom: .5em; 
+    margin: 0;
+}
+h4{
+    color: maroon;
+    font-size: 100%;
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}  
+aside ul{
+    padding-left: 15px;
+} 
+footer{
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-size: 0.8em;
+}
+table{
+    border: 5px solid hsl(240, 81%, 35%);
+    margin: 10px;
+}
+
+thead{
+    color: whitesmoke;
+    background-color: hsl(240, 81%, 35%);
+    border: hsl(240, 81%, 35%);
+}
+
+th{
+    padding: 15px;
+}
+
+td{
+    padding: 10px;
+}
+
+tbody tr:nth-child(1) {
+    background-color: rgb(194, 184, 184);
+}
+
+tbody tr:nth-child(3) {
+    background-color: rgb(194, 184, 184);
+}
+tbody tr:nth-child(5) {
+    background-color: rgb(194, 184, 184);
+}
+table {
+    border-collapse: collapse;
+}
+ul.tick {
+    list-style: none;
+}
+  
+@media screen and (min-width:750px){
+
+h1{
+    font-size: x-large;
+}    
+    
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    width: 970px;
+    margin: 15px auto;
+    border: 1px solid black; 
+}
+main nav{
+    padding: 5px 0;
+}    
+main nav a{
+    margin: 20px; padding: 10px;
+}    
+main nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+main nav li{
+    float: left;
+}
+aside {
+    width: 350px;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px; 
+}   
+section {
+    width: 350px;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px; 
+}  
+footer span{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: left;
+}
+footer span1{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: right;
+}
+
+    
+}

@@ -1,0 +1,153 @@
+header{
+    background-color: #202849;
+    color: white;
+    font-size: 00.8em;
+}
+h1{
+    text-align: center;
+    color: maroon;
+    font-size: large;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90%;
+   
+}
+.tiledBackground {
+    background-image: url("../Images/background.jpg");
+    background-size: 970px;  
+}  
+nav{
+    padding: 5px 0;
+}
+section, aside, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+section, aside ul {
+    margin-top: 0;
+    margin-bottom: 1.5em; 
+}
+section, aside li {
+   
+    padding-bottom: .35em; 
+}
+p {
+    padding-bottom: .5em; 
+}
+
+section h2 {
+    color: maroon;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+aside ul{
+    padding-left: 15px;
+}
+aside h2 {
+    color: maroon;
+    font-size: 100%;
+}
+aside h3 {
+    color: maroon;
+    font-size: 100%;
+}
+
+nav li{
+    list-style-type: none;
+}
+nav a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-size: 0.8em;
+}
+header nav a:hover{
+    background-color:yellowgreen;
+    color: black;
+}
+main nav li{
+    list-style-type: none;
+}
+main nav a:hover{
+    background-color:yellowgreen;
+    color: black;
+}
+main nav a{
+    font-size: 15px;
+    color: white;   
+    background-color:#202849;     
+}
+fieldset{
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}  
+#button{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:750px){
+
+h1{
+    font-size: x-large;
+}    
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    width: 970px;
+    margin: 15px auto;
+    border: 1px solid black; 
+}
+section {
+    width: 535px;
+    margin-left: 20px;
+    padding-right: 25px;
+    float: right; 
+}
+aside {
+    width: 350px;
+    float: right;
+    padding-left: 20px;
+    margin-right: 20px; 
+}
+
+main nav a{
+    padding: 4px;
+} 
+footer span{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: left;
+}
+footer span1{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: right;
+}
+
+
+
+}

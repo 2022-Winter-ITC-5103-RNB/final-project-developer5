@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking Form</title>
+        <link rel="stylesheet" href="CSS/booking.css">    
+        <link rel="shortcut icon" href="Images/favicon.jpg">
+        <meta charset="utf-8">
+        <meta name="description" content="A website for the glimpse of Kathmandu">
+        <meta name="keywords" content="nepal travels, nepal, kathmandu, himalayas, valley">
+    </head>
+    <div class="tiledBackground">
+      <body>
+          <h1>Kathmandu Valley Tour</h1>
+          <header>
+              <script>
+                  const today = new Date();
+                  document.write(`Today's Date: ${today.toDateString()}.`);
+              </script>
+              <nav>
+                  <ul>
+                     <li><a href="overview.html">Overview</a></li>
+                     <li><a href="itinerary.html">Itinerary</a>
+                     <li><a href="cost.html">Cost & Other Details</a></li>
+                  </ul>
+              </nav>
+          </header>
+          <h2>Booking Form: Kathmandu Valley Tour</h2>
+          <form id="booking" action="confirmBooking.html" method="get">
+              <div>
+                  <label for="name">Full Name:</label>
+                  <input type="text" name="name" id="name">
+                  <span>*</span>
+              </div>
+              <div>
+                  <label for="email_address">E-Mail:</label> 
+                  <input type="text" name="email_address" id="email_address">
+                  <span>*</span>
+              </div>
+              <div>
+                  <label for="phone">Mobile Phone:</label>
+                  <input type="text" name="phone" id="phone">
+                  <span>*</span>
+              </div>
+              <div>
+                  <label for="country">Country:</label>
+                  <select name="country" id="country">
+                      <option value="">Select a country</option>
+                      <option>Nepal</option>
+                      <option>India</option>
+                      <option>China</option>
+                      <option>Singapore</option>
+                      <option>Thailand</option>
+                      <option>Vietnam</option>
+                      <option>Malaysia</option>
+                      <option>Philippines</option>
+                      <option>Indonesia</option>
+                      <option>Laos</option>
+                      <option>UK</option>
+                      <option>USA</option>
+                      <option>Canada</option>
+                      <option>Mexico</option>
+                  </select>
+                  <span>*</span>
+              </div>
+              <div>
+                  <label>Contact me by:</label>
+                  <input type="radio" name="contact" id="text"
+                      value="text" checked>Text
+                  <input type="radio" name="contact" id="email"
+                      value="email">Email
+                  <input type="radio" name="contact" id="none"
+                      value="none">Don't contact me
+              </div>
+              <div>
+                  <label for="message">Message:</label>
+                  <input type="text" id="message" style="height: 5em; width:25em;"
+                    placeholder="If you have any message, please write here"><br>
+              </div>
+            
+              <div>
+                  <label>&nbsp;</label>
+                  <input type="button" id="register" value="Submit">
+                  <input type="button" id="reset_form" value="Reset">
+              </div>
+          </form>
+          <script src="JavaScript/booking.js"></script>
+      </body>
+    </div>
+</html>

@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    background-color: #ffb27b;
+}
+header h1{
+    display: block;
+    margin: 10px auto; 
+    color: black; 
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #202849;
+    ;
+    padding: 10px 0;
+    text-align: center;
+    color:black;
+}
+nav li{
+    padding-top: 10px;
+    list-style-type: none;   
+}
+nav a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    font-size: 18px;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 40%;
+    
+    font-size: 18px;
+}
+thead{
+    background-color: grey;
+    color: aliceblue;
+    height: 40px;
+}
+
+th,td{
+    padding: 16px;
+    border: solid black;
+}
+footer{
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+.itn h3{
+    color: crimson;
+}
+.home-container h3{
+    color: crimson;
+}
+.itn h2{
+    color: blue;
+}
+
+button{
+    background-color: rgb(28, 172, 152);
+    font-size: medium;
+}

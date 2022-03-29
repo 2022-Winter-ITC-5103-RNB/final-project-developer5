@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trip Customize Form</title>
+        <link rel="stylesheet" href="CSS/customize.css">    
+        <link rel="shortcut icon" href="Images/favicon.jpg">
+        <meta charset="utf-8">
+        <meta name="description" content="A website for the glimpse of Kathmandu">
+        <meta name="keywords" content="nepal travels, nepal, kathmandu, himalayas, valley">
+    </head>
+    <div class="tiledBackground">
+      <body>
+          <h1>Kathmandu Valley Tour</h1>
+          <header>
+              <script>
+                  const today = new Date();
+                  document.write(`Today's Date: ${today.toDateString()}.`);
+              </script>
+              <nav>
+                  <ul>
+                     <li><a href="overview.html">Overview</a></li>
+                     <li><a href="itinerary.html">Itinerary</a>
+                     <li><a href="cost.html">Cost & Other Details</a></li>
+                  </ul>
+              </nav>
+          </header>
+          <h2>Customize My Trip: Kathmandu Valley Tour</h2>
+          <form id="customize form" action="confirmCustomize.html" method="get">
+              <fieldset>
+                  <legend>Trip Informaton</legend>
+                  <label for="trip">Trip Title:</label>
+                  <input type="text" id="trip"><br>
+                  <label for="group">Group Members Details:</label>
+                  <input type="text" id="group"><br>
+                  <label for="message">Special Requirements:</label>
+                  <input type="text" id="message" style="height: 5em; width:25em;"
+                  placeholder="If you have special requirements, please write here"><br>
+              </fieldset>
+              <br>
+              <fieldset>
+                  <legend>Personal Information</legend>
+                  <label for="name">Full Name:</label>
+                  <input type="text" id="name"><br>
+                  <label for="country">Country:</label>
+                  <input type="text" id="country"><br>
+                  <label for="email">Email:</label>
+                  <input type="text" id="email"><br>
+                  <label for="phonenumber">Phone Number:</label>
+                  <input type="text" id="phonenumber"><br>
+              </fieldset>
+
+              <input type="submit" id="button" value="Submit">
+          </form>
+      </body>
+  </div>
+<html>    

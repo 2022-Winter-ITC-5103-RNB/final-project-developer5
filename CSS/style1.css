@@ -1,0 +1,163 @@
+header{
+    display: flex;
+    background-color: #ffb27b;
+}
+main{
+    padding: 0px;
+    margin-top: 41px;
+}
+header h1{
+    display: block;
+    margin: 10px auto; 
+    color: black; 
+
+}
+
+.nav h2{
+    text-align: center;
+    color: crimson;
+}   
+
+.munnar{
+    display: block;
+}
+
+ .munnar img{
+    float: left; 
+    padding-right: 25px;
+    width: 40%;
+}
+.munnar h2{
+    color: crimson;
+    
+}
+.munnar p{
+    font-size: 24px;
+}
+
+.sv{
+    margin-top: 50px;
+    display: block;
+}
+.sv h2{
+    color: crimson;
+}
+
+.sv img{
+    float: right;
+    padding-left: 25px;
+    height: 50%;
+    width: 40%;
+}
+.sv p{
+    font-size: 24px;
+    text-align: left;
+}
+
+.ec{
+    display: block;
+}
+.ec h2{
+    color: crimson;
+}
+
+.ec img{
+    float: left;
+    padding-right: 25px;
+    width: 40%;
+    height: 100%;
+}
+.ec p{
+    font-size: 24px;
+    text-align: left;
+}
+nav{
+    background-color: #202849;
+    height: 49px;
+    margin-top: -41px;
+    width: 100%;
+   
+} 
+#contact{
+    background-color: #B05675;
+    border-radius: 30px;
+}
+#contact a{
+    padding: 50px 10px;
+    font-weight: bold;
+}  
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    padding-top: 10px;
+    list-style-type: none;
+    
+}
+nav a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+
+}
+footer{
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+#error{
+    color: red;
+    display: block;
+    font-size: large;
+    
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        margin: 10px;
+    }
+
+    nav{
+        padding: 5px 0;
+    }
+
+
+    .nav ul li {
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+
+    .munnar img{
+        height: 50%;
+        width: 100%;
+        
+    }
+    .sv img{
+        height: 50%;
+        width: 100%;
+    }
+    .ec img{
+        height: 50%;
+        width: 100% ;
+    }
+
+}
+
+#nm{
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+#email{
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+h2{
+    color: crimson;
+}
