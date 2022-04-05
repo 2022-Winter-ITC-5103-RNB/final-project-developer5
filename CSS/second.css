@@ -38,6 +38,9 @@ h2{
     max-width: 1300px;
 }
 
+#hiddenform{
+    display: none;
+}
 
 nav{
     background-color: #202849;
@@ -104,7 +107,7 @@ img{
     justify-content: flex-end;
     padding: 10px;
 }
-.bottom button{
+.bottom {
     margin: 10px;
     padding: 10px;
     background-color:#B05675;
@@ -116,8 +119,32 @@ img{
 footer{
     background-color: #202849;
     padding: 10px 0;
-
-
     text-align: center;
+    clear: both;
     color: white;
+    font-size: 0.8em;
+}
+footer span{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: left;
+}
+footer span1{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: right;
+}
+#h4t{
+    text-align: center;
+}
+#h4y{
+    text-align: center;
+}
+#finalsubmit{
+    margin: 10px;
+    padding: 10px;
+    background-color:#B05675;
+    color:white;
+    font-weight: bolder;
+    border-radius: 5px;
 }

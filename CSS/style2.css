@@ -1,6 +1,10 @@
 header{
     display: flex;
     background-color: #ffb27b;
+    margin-bottom: -18px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
 }
 header h1{
     display: block;
@@ -12,7 +16,8 @@ nav ul{
     display: flex;
     justify-content: space-around;
     background-color: #202849;
-    ;
+    margin-left: -8px;
+    margin-right: -8px;
     padding: 10px 0;
     text-align: center;
     color:black;
@@ -54,6 +59,17 @@ footer{
     padding: 10px 0;
     text-align: center;
     color: white;
+    margin-top: 28px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -8px;  
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-size: 0.8em;
+
 }
 .itn h3{
     color: crimson;
@@ -68,4 +84,15 @@ footer{
 button{
     background-color: rgb(28, 172, 152);
     font-size: medium;
+}
+
+footer span{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: left;
+}
+footer span1{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: right;
 }

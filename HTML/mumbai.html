@@ -20,7 +20,7 @@
         </ul>
     </nav>
     <header class="head">
-        <img src="/Images/mumbai.png" alt="image of city" class="img">
+        <img src="/Images/mumbai.png" alt="image of city" name="slideshow" style="float: left; display: block; width: 400px; height: 300px;">
         <div class="info">
             <h2>Maharashtra</h2>
             <p><strong>Mumbai is the capital of Maharashtra, an Indian state. With a population of almost 2 crore,
@@ -95,11 +95,48 @@
             </div>
         </section>
 
+        <h5 style="color:maroon;font-size:100%; margin-top:30px; text-align: center; margin-bottom: 10px;">For More Inquire place the details below:</h5>
+            <form id="newsLetter"  method="get">
+                <div class="inquire"> 
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Full Name">
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="Email"><br>
+                    <button  onclick="alert();" value="Submit" style="margin: 10px;">Ok</button>
+                    <div id='error'>
+                       <p></p>
+                    </div>
+                </div>
+                    
+                
+
 
     </main>
     <footer>
-        <p>Copyrights @Tours and Travels</p>
+        <span>
+            <h4>MAIL US AT :</h4>
+            <p>Tours and Travels Pvt.Ltd. <br> Kathmandu Office,<br> Durbarmarg, Kathmandu, Nepal</p>
+        </span>
+        <span1>
+            <h4>CALL US AT :</h4>
+            <p>+977 555-555-5555 (Office) <br>+977 666-666-6666 (Manager) <br>+977 666-666-6666 (Manager)</p>
+        </span1>
+        <span2>
+            <h4>WRITE TO US AT :</h4>
+            <p><a href="emailto:tours.travels@toursandtravels.com" style="color: white;">tours.travels@toursandtravels.com</a><br><a href="emailto:info.kathmandu@toursandtravels.com" style="color: white;">info.kathmandu@toursandtravels.com</a></a><br><a href="emailto:marketing.kathmandu@toursandtravels.com" style="color: white;">marketing.kathmandu@toursandtravels.com</a></p>      
+        </span2>
+        
+        <br> &copy 2022 Tours and Travels Pvt.Ltd.
 </footer>
+<script src="../JavaScripts/mumbai.js"></script>
+<script src="../JavaScripts/mumbai2.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/4.0.3/sweetalert2.css" rel="stylesheet"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/4.0.3/sweetalert2.js"></script>
+
 
 
 </body>

@@ -1,0 +1,74 @@
+.wrapper{
+    text-align: center ;
+    padding: 5%;
+    display: block;
+}
+
+.wrapper h1{
+    color: #c12020;
+}
+
+#fname{
+    border: 1px solid black;
+    width: 20%;
+    margin-right: -26px;
+}
+
+#lname{
+    border: 1px solid black;
+    width: 20%;
+    margin-right: -27px;
+}
+
+#start{
+    border: 1px solid black;
+    width: 20%;
+    margin-right: -36PX;
+}
+
+#end{
+    border: 1px solid black;
+    width: 20%;
+    margin-right: -42px;
+}
+
+#emailid{
+    border: 1px solid black;
+    width: 20%;
+    margin-right:10px ;
+}
+
+#mnumber{
+    border: 1px solid black;
+    width: 20%;
+}
+
+#package{
+    border: 1px solid black;
+    width: 20%;
+    margin-right: 10px;
+}
+
+#form_1{
+    font-size: 20px;
+    
+}
+
+.fs{
+    text-align: center;
+    display: block;
+    width: 60%;
+    height: 60%;
+    
+}
+
+.form-group {
+    padding: 10px;
+    
+}
+.err { background: #ffe6ee; border: 1px solid #b1395f; }
+.emsg { color: #c12020; font-weight: bold; }
+
+.favorite {
+    margin-top: 20px;
+}

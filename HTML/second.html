@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/second_c.css">
+    <link rel="stylesheet" href="../CSS/second.css">
 </head>
 
 <body>
@@ -16,9 +16,11 @@
                 <a href="#"><img src="../Images/background-removebg-preview.png" alt=""></a>
             </div>
             <ul>
-                <li><a href="index_ja.html">Home</a></li>
-                <li><a href="second_ja.html">Itinerary</a></li>
-                <li><a href="third_ja.html">Cost & Other</a></li>
+                <li><a href="firstpage.html">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="second.html">Itinerary</a></li>
+                <li><a href="third.html">Cost & Other</a></li>
                 <li id="contact"><a href="#">Contact Us</a></li>
             </ul>
         </nav>
@@ -78,22 +80,64 @@
                     </p>
                 </div>
             </div>
-            <div class="bottom">
-                <button>Customize Trip</button>
-                <button>Print PDF</button>
+            
+             <input type="button" id="finalsubmit" value="Customize Trip" onclick="submit()">
+            
+            <button class="bottom">Print PDF</button>
+            
+            <div id="hiddenform">
+                <br>
+                <form action="POST">
+                    <p>1. Select if you want to add a day or remove a day from trip</p>
+                    <input type="radio" id="add" name="day" value="Add a Day">
+                    <label for="add">Add a Day</label><br>
+                    <input type="radio" id="remove" name="day" value="Remove a Day">
+                    <label for="remove">Remove a Day</label><br><br>
+                    <p>2. Enter the place you want add</p>
+
+                    <input type="text" name="place-name" id="place_name">
+                    <br>
+                    <br>
+                    <input type="button" id="formsubmit" value="submit" onclick="submitform()">
+                        <h2 id="h4t"></h2>
+                        <h3 id="h4y"></h3>
+                        <p id="place_added"></p>
+                        <p id="output"></p>
+               
+                    
+                </form>
             </div>
 
         </main>
         <hr>
-        <footer>
-            <p>Copyrights @Tours and Travels</p>
+        <footer>      
+            <span>
+                <h4>MAIL US AT :</h4>
+                <p>Tours and Travels Ltd <br> Goa Office, Agonda towers, Goa </p>
+            </span>
+            
+            <span1>
+                <h4>CALL US AT :</h4>
+                <p>+91 9856784456 (Office) <br>+91 9426456765 (Manager)</p>
+            </span1>
+                                 
+            <span2>
+                <h4>WRITE TO US AT :</h4>
+                <p><a href="emailto:tours.travels@toursandtravels.com" style="color: white;">
+                    tours.travels@toursandtravels.com</a><br>
+                    <a href="emailto:info.@toursandtravels.com" style="color: white;">
+                    info.goa@toursandtravels.com</a></a><br>
+                </p>      
+            </span2>
+                                          
+            <br> Copyrights @Tours and Travels.
         </footer>
 
     </div>
 
 
     
-
+<script src="../JavaScripts/second.js"></script>
 </body>
 
 </html>
