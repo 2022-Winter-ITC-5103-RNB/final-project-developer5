@@ -31,7 +31,7 @@ header .info {
     padding-right: 10px;
 }
 
-.inquire{
+.inquire {
     text-align: center;
 }
 
@@ -140,7 +140,7 @@ nav a {
     margin-top: 80px;
 } */
 
-footer{
+footer {
     margin-top: 30px;
     background-color: #202849;
     padding: 5px 0;
@@ -149,12 +149,14 @@ footer{
     color: white;
     font-size: 0.9em;
 }
-footer span{
+
+footer span {
     margin-left: 20px;
     padding-right: 25px;
     float: left;
 }
-footer span1{
+
+footer span1 {
     margin-left: 20px;
     padding-right: 25px;
     float: right;
@@ -220,13 +222,14 @@ section .gateway {
         height: 50%;
         padding-bottom: 10px;
     }
-    fieldset{
+
+    fieldset {
         text-align: center;
         border-top-style: hidden;
         border-right-style: hidden;
         border-left-style: hidden;
         border-bottom-style: hidden;
-    }  
-  
+    }
+
 
 }
