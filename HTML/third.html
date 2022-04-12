@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/third.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+          
+            <ul>
+                <li><a href="firstpage.html">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="second.html">Itinerary</a></li>
+                <li><a href="third.html">Cost & Other</a></li>
+                <li id="contact"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section class="intro">
+            <h2>Ahmedabad! City Tour</h2>
+            <p><b> Cost and other Details </b></p>
+        </section>
+
+        <hr>
+
+        <main>
+            <p class="info">The Cost Includes:</p>
+            <ul class="includes">
+                <li>Three Nights at Five Star Hotels accomodation including Breakfast</li>
+                <li>All Entrnace Fees</li>
+                <li>Travel Insaurance</li>
+                <li>All Transportation Cost</li>
+            </ul>
+
+            <p class="info">The cost isn't Includes:</p>
+            <ul>
+                <li>Lunch and Dinner</li>
+                <li>Private Sightseeing</li>
+                <li>Rides In Scince City</li>
+            </ul>
+
+            <p class="info">Food Information:</p>
+            <br>
+            <p><b>Breakfast: </b>Our company provides the best in class Breakfast made by the chef who posses a stellar reputation in food Industry. All the hotels will provide both Vegeratian and Non-vegetarian food, depending upon the guest needs. Also they can cook the separate dishes requested by guest.</p>
+            <br>
+
+            <p><b>Lunch and Dinner: </b>As mentioned above our compant only includes the cost for breakfast thus it is highly encouraged to guest to make their own arrangements for thie dinner and lunch. If any traveller needs guidance regarding where to find food they can allways contact the tour guide.</p>
+            <br>
+
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Restaurant Name</th>
+                        <th>Address</th>
+                        <th>Contact Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hayatt Residency</td>
+                        <td>17/A, Ashram Rd, Usmanpura, Ahmedabad, Gujarat 380014, India</td>
+                        <td>+91 79 4017 1234</td>
+                    </tr>
+                    <tr>
+                        <td>Ramada by Wyndham</td>
+                        <td>SG Highway, Corporate Rd, Near, Prahlad Nagar, Ahmedabad, Gujarat 380015, India</td>
+                        <td>+91 79 4025 0000</td>
+
+                    </tr>
+                    <!-- and so on... -->
+                </tbody>
+            </table>
+
+            <p class="info">Health Information:</p>
+            <br>
+            <p>Our company provides Travel Insauranceright from the start of trip. It is included inside the Travel Insaurance which covers any unfortunate accidents or health problems. Our company assures that if any serious health problem occurs than it would be treated with the best care ever possible.</p>
+            <br>
+            <div class="form-wrapper">
+                <h3>PLEASE CONTACT US </h3>
+                <div id="error_message"></div>
+                <form id="myform" name="myForm" onsubmit="validateform();return false">
+                    <div class="input_field">
+                        <input type="text" placeholder="name" id="name"> <p id="mname"></p>
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="email" id="email"><p id="memail"></p>
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="phone" id="phone"><p id="mphone"></p>
+                    </div>
+                    <div class="input_field">
+                        <textarea type="text" placeholder="Add a Message" id="msg"></textarea> <p id="textmsg"></p>
+                    </div>
+                 
+                        <!-- <button id="mybtn">Submit</button> -->
+                        <input type="submit" id="formsubmit" value="submit">
+                    
+                </form>
+            </div>
+
+        </main>
+        <hr>
+        <footer>
+            <p>Copyrights @Tours and Travels</p>
+        </footer>
+
+    </div>
+
+
+    
+<script src="../JavaScripts/third.js"></script>
+</body>
+
+</html>

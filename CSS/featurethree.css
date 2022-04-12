@@ -1,0 +1,62 @@
+header{
+    text-align: center;
+    background-color: #202849;
+}
+header img{
+    max-width: 20%;
+}
+h2{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3{
+    background-color: rgb(192, 138, 138);
+}
+nav{
+    background-color: #202849;
+    padding: 5px 0;
+    top: 0px;
+} 
+.wrapperform{
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    
+    list-style-type: none;
+}
+nav a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.account label{
+    float: left;
+    width: 15em;
+    text-align: right;
+}
+
+footer{
+    background-color: #202849;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-size: 0.8em;
+}
+footer span{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: left;
+}
+footer span1{
+    margin-left: 20px;
+    padding-right: 25px;
+    float: right;
+}

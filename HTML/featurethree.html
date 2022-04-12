@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tours and Travels</title>
+        <script src="../JavaScripts/featthree.js"></script>
+        <link rel="Stylesheet" href="../CSS/featurethree.css">
+    </head>
+        
+<body>
+<header>
+    <img src="../Images/04b4dbe2-d55e-4754-ab52-7efb99c40253.jpg" alt="logo">
+
+                
+<nav>
+    <ul>
+        <li><a href="firstpage.html">Home</a></li>
+        <li><a href="project1.html">Overview</a></li>
+        <li><a href="featuretwo.html">Itinerary</a></li>
+        <li><a href="featurethree.html">Cost and other </a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <h2>Costs and Other</h2>
+    <h3>Pride</h3>
+    <p>Location: Captain of Ports Jetty, Panaji</p>
+    <p>Timings: 24×7</p>
+    <p>Entry Fee*:<br> ₹ 1500 per adult Monday to Thursday (includes coupon worth ₹ 500) 
+                  <br> ₹ 2000 per adult Friday to Sunday (includes coupon worth ₹ 1000)     
+                       *The entry fee is inclusive of alcoholic beverages and unlimited buffet</p>
+   <h3>Museum of Christian Art </h3>
+   <p>Location: Convent of Santa Monica, Velha Goa
+    Timings: 9:30 am to 5:00 pm; closed on Sundays</p>
+   <p>Entry Fee: ₹ 10 for students; ₹ 30 for adults</p>
+
+   <h3>National Park</h3>
+   <p>Location: Sonaulim
+    Timings: 8:00 am to 5:30 pm; every day</p>
+   <p>Entry fee: ₹ 20 per adult; ₹ 10 per children</p>
+
+   <h3>Wildlife Santuary</h3>
+   <p>Location: Canacona Taluka
+    Timings: 7:00 am to 5:30 pm; every day</p>
+   <p>Entry fee: ₹ 5 for adults, ₹ 2 for children</p>
+   
+   <p style="color: firebrick;" id="error"></p>
+   <div class="wrapperform">
+   <form id="valform" action="post"> 
+    <fieldset class="account">
+        <legend><b>Enter your Contact Information</b></legend>
+        <label for="name">Name: </label>
+        <input type="text" id="name"><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email"><br>
+        <label for="number">Phone Number:  </label>
+        <input type="number" id="number" maxlength="10">    
+    </fieldset>
+                  
+    <fieldset> 
+     <b>Select all the destinations that you want to visit: </b><br>
+     <input type="checkbox" id="destination1" name="destination1" >
+     <label for="destination1"> Casino Pride</label><br>
+     <input type="checkbox" id="destination2" name="destination2" >
+     <label for="destination2"> Museum of Christian Art</label><br>
+     <input type="checkbox" id="destination3" name="destination3">
+     <label for="destination3"> Mollen National Park</label><br>
+     <input type="checkbox" id="destination4" name="destination4">
+     <label for="destination4"> Contiago Wildlife Santuary</label><br>
+     <input type="button" value="submit" onclick="formval()">
+     </fieldset>    
+    </form>
+    </div>
+    
+    <p id="submit"></p>    
+     </main>
+
+     <footer>      
+        <span>
+            <h4>MAIL US AT :</h4>
+            <p>Tours and Travels Ltd <br> Goa Office, Agonda towers, Goa </p>
+        </span>
+        
+        <span1>
+            <h4>CALL US AT :</h4>
+            <p>+91 9856784456 (Office) <br>+91 9426456765 (Manager)</p>
+        </span1>
+                             
+        <span2>
+            <h4>WRITE TO US AT :</h4>
+            <p><a href="emailto:tours.travels@toursandtravels.com" style="color: white;">
+                tours.travels@toursandtravels.com</a><br>
+                <a href="emailto:info.@toursandtravels.com" style="color: white;">
+                info.goa@toursandtravels.com</a></a><br>
+            </p>      
+        </span2>
+                                      
+        <br> Copyrights @Tours and Travels.
+    </footer>
+</body>
+</html>

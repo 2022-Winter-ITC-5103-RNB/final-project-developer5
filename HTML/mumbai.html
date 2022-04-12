@@ -13,10 +13,9 @@
 <body>
     <nav>
         <ul>
+            <li><a href="firstpage.html">Home</a></li>
             <li><a href="mumbai.html">Overview</a></li>
             <li><a href="itineraryy.html">Itinerary</a></li>
-            <li><a href="#">Cost & Other Details</a></li>
-            <li id="contact"><a href="#">Contact Us</a></li>
         </ul>
     </nav>
     <header class="head">
@@ -94,24 +93,21 @@
                         with stunning colours at night.</strong></p>
             </div>
         </section>
+    </main>
 
         <h5 style="color:maroon;font-size:100%; margin-top:30px; text-align: center; margin-bottom: 10px;">For More Inquire place the details below:</h5>
-            <form id="newsLetter"  method="get">
+            <form id="newsLetter"  onsubmit="return validate()">
                 <div class="inquire"> 
                     <label for="name"></label>
                     <input type="text" id="name" placeholder="Full Name">
                     <label for="email"></label>
                     <input type="text" id="email" placeholder="Email"><br>
-                    <button  onclick="alert();" value="Submit" style="margin: 10px;">Ok</button>
+                    <button  value="Submit" style="margin: 10px;">Ok</button>
                     <div id='error'>
                        <p></p>
                     </div>
                 </div>
-                    
-                
-
-
-    </main>
+        
     <footer>
         <span>
             <h4>MAIL US AT :</h4>
@@ -130,12 +126,8 @@
 </footer>
 <script src="../JavaScripts/mumbai.js"></script>
 <script src="../JavaScripts/mumbai2.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.min.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/4.0.3/sweetalert2.css" rel="stylesheet"/>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/4.0.3/sweetalert2.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
 

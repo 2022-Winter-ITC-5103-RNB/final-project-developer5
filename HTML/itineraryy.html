@@ -15,29 +15,29 @@
     </div>
     <nav>
         <ul>
+            <li><a href="firstpage.html">Home</a></li>
             <li><a href="mumbai.html">Overview</a></li>
             <li><a href="itineraryy.html">Itinerary</a></li>
-            <li><a href="#">Cost & Other Details</a></li>
-            <li id="contact"><a href="#">Contact Us</a></li>
         </ul>
     </nav>
     <div class="content">
         <div class="form-container">
+            <div id="error_message"></div>
 
-            <form action="">
+            <form method="post" onsubmit="return val()">
 
                 <h3>search your place</h3>
 
-                <span>location</span>
+                <span id="location">location</span>
                 <input type="text" placeholder="place you want to visit">
 
-                <span>guest members</span>
+                <span id="guest">guest members</span>
                 <input type="number" placeholder="how many people">
 
-                <span>arrivals</span>
+                <span id="arrival">arrivals</span>
                 <input type="date">
 
-                <span>leaving</span>
+                <span id="leaving">leaving</span>
                 <input type="date"><br>
 
                 <input class="btn" type="submit" value="search">
@@ -46,16 +46,69 @@
 
         </div>
 
-        <div class="form-container2">
+        <main>
+            <h3 style="text-align: center; padding-top: 50px;">ITINERARY DETAILS</h3>
+            <section class="faq-container">
+                <div class="faq-one">
+                    <!-- faq question -->
+                    <h1 class="faq-page">DAY1</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>Pick-up @ 1PM From the Mumbai International Airport - Terminal 2, Hotel VITS Mumbai houses a
+                            Poolside Restaurant, Ayurvedic and Thai Spa, Indoor Swimming Pool, Fitness Centre and Q Bar.<br>
+                            Located close to the Mumbai International Airport in Andheri East, VITS Mumbai Hotel is known
+                            for its plush interiors and quality service. Stay at the hotel, enjoying eminities provided by
+                            hotel management which indulged with LUNCH AND DINNER the day you have Arrived.</p>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="faq-two">
+                    <!-- faq question -->
+                    <h1 class="faq-page">DAY2</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>Breakfast at hotel, Later Proceed to visit Gateway of India, Prince of wales, Dhobi Ghat,
+                            Victoria Terminus, Raja Bhai clock tower , Sidhivinayak Temple Transfer to hotel, Rest of the
+                            day relax, Overnight at Mumbai</p>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="faq-three">
+                    <!-- faq question -->
+                    <h1 class="faq-page">DAY3</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>Breakfast at hotel then proceed for Dabbawala tour in first half and Bollywood tour in second
+                            half. Dabbawala begins at 10:00 and finished at 12:30 the word dabbawala implies a person in the
+                            Indian city of Mumbai who carries and delivers freshly made food from home in lunch boxes to
+                            office workers.<br>
+    
+                            Afternoon proceed for Bollywood Tour in which you get know about origin and evolution of Indian
+                            Film chance to watch shootings of Feature films, T.V serials or Ad Films, Apart from this it
+                            give you glimpse of the most famous Film Star Houses (from outside) located on Juhu and
+                            Bandra.<br>
+    
+                            Post tour drop back to hotel, Overnight at Mumbai.</p>
+                    </div>
+                </div>
+
+                
+
+            </section>
+        </main>
+
+        <!-- <div class="form-container2">
             <form>
                 <h3>ITINERARY DETAILS</h3>
                 <div class="details">
-                    <h3>DAY 1</h3>
+                    <h3 class="faq-page">DAY 1</h3>
+                    <div class="faq-body">
                     <p>Pick-up @ 1PM From the Mumbai International Airport - Terminal 2, Hotel VITS Mumbai houses a
                         Poolside Restaurant, Ayurvedic and Thai Spa, Indoor Swimming Pool, Fitness Centre and Q Bar.<br>
                         Located close to the Mumbai International Airport in Andheri East, VITS Mumbai Hotel is known
                         for its plush interiors and quality service. Stay at the hotel, enjoying eminities provided by
                         hotel management which indulged with LUNCH AND DINNER the day you have Arrived.</p>
+                    </div>
                     <h3>DAY 2</h3>
                     <p>Breakfast at hotel, Later Proceed to visit Gateway of India, Prince of wales, Dhobi Ghat,
                         Victoria Terminus, Raja Bhai clock tower , Sidhivinayak Temple Transfer to hotel, Rest of the
@@ -83,12 +136,29 @@
 
 
             </form>
-        </div>
+        </div> -->
 
         <div class="btn">
-            <li><a href="#">ADD MORE ACTIVITIES</a></li>
+            <li><a href="#">ADD MORE DAYS</a></li>
         </div>
     </div>
+    <footer>
+        <span>
+            <h4>MAIL US AT :</h4>
+            <p>Tours and Travels Pvt.Ltd. <br> Kathmandu Office,<br> Durbarmarg, Kathmandu, Nepal</p>
+        </span>
+        <span1>
+            <h4>CALL US AT :</h4>
+            <p>+977 555-555-5555 (Office) <br>+977 666-666-6666 (Manager) <br>+977 666-666-6666 (Manager)</p>
+        </span1>
+        <span2>
+            <h4>WRITE TO US AT :</h4>
+            <p><a href="emailto:tours.travels@toursandtravels.com" style="color: white;">tours.travels@toursandtravels.com</a><br><a href="emailto:info.kathmandu@toursandtravels.com" style="color: white;">info.kathmandu@toursandtravels.com</a></a><br><a href="emailto:marketing.kathmandu@toursandtravels.com" style="color: white;">marketing.kathmandu@toursandtravels.com</a></p>      
+        </span2>
+        
+        <br> &copy 2022 Tours and Travels Pvt.Ltd.
+</footer>
+<script src="../JavaScripts/itineraryy.js"></script>
 
 </body>
 
