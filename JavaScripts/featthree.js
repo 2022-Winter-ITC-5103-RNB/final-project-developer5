@@ -31,7 +31,7 @@ function formval(){
   }
 
 
-let myImagesArray = ["images/fun1.jpg","images/fun2.jpg", "images/fun3.jpg"];
+let myImagesArray = ["../Images/fun1.jpg","../Images/fun2.jpg", "../Images/fun3.jpg"];
 let ImageNumber = 0;
 let difference = myImagesArray.length -1;
 let delay = 1500; 
