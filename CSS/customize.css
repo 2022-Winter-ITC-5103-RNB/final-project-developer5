@@ -5,7 +5,6 @@ header nav li{
     list-style-type: none;
 }
 header nav a{
-    font-size: 15px;
     color: white;
     text-decoration: none;
 }
@@ -14,14 +13,11 @@ header nav a:hover{
     color: black;
 }
 header{
-    background-color: #202849;
-    color: white;
-    font-size: 00.8em;
+    color: black;
 }
 h1{
-    text-align: center;
     color: maroon;
-    font-size: large;
+    font-size: medium;
 }
 
 body{
@@ -40,43 +36,108 @@ fieldset{
     margin-right: 20px;
 }
     
-h2{
-    margin-left: 30px;
-    color: rgb(3, 3, 124);
-    font-style: normal;
-}
-
 label {
     float: left;  
     width: 10em;
     text-align: right;
 }
 
-   input {
+input {
     margin-left: 1em;
     margin-bottom: .5em;
 }
 textarea { height: 5em; width: 25em;
- }
-
+}
 
 #button {
     margin: 10px;
     margin-left: 20px;
 }
+.main ul {
+    margin-left: 25px;
+}
+
+.logo1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: rgb(10, 0, 0);
+    padding: 5px 20px;
+    border: 2px solid rgb(10, 0, 0);
+    font-size: 20px;
+    line-height: 60px;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover {
+    background-color: rgb(10, 0, 0);
+    color: rgb(218, 128, 12);
+}
+
+.main nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+.main nav ul li:hover>ul {
+    display: block;
+}
+
+.main nav ul ul li {
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(10, 0, 0);
+    padding: 5px 20px;
+    border: 2px solid rgb(10, 0, 0);
+    font-size: 20px;
+    line-height: 60px;
+    transition: 0.6s ease;
+}
+#nav_menu{
+    border-top: 1px solid rgb(21, 20, 20);
+    background-color: #202849;
+} 
+#nav_menu a{ 
+    background-color: white;
+} 
 @media screen and (min-width:750px){
 
-    h1{
-        font-size: x-large;
-    }    
+h1{
+    font-size: x-large;
+    padding-top: 60px;
+}    
     
-    header nav ul{
-        display: flex;
-        justify-content: space-around;
-    }
-    body{
-        width: 970px;
-        margin: 15px auto;
-        border: 1px solid black; 
-    }
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    width: 970px;
+    margin: 15px auto;
+    border: 1px solid black; 
+}
+.main ul li {
+display: inline-block;
+}
+.main ul {
+    margin-left: 25px;
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.logo1 {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
 }

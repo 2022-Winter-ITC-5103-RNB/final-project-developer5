@@ -1,16 +1,30 @@
-header{
+ header{
     text-align: center;
     background-color: #202849;
 }
 header img{
     max-width: 20%;
 }
-h2{
+img{
+    width: 400px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.cost{
     background-color: antiquewhite;
     text-align: center;
     font-size: 35px;
 }
-
+.logo1{
+    color: white;
+    float: right;
+    margin: 0px;
+    margin-right: 10px;
+}
+#logocol{
+    color: rgb(218, 128, 12)
+}
 h3{
     background-color: rgb(192, 138, 138);
 }

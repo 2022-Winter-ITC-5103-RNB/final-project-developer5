@@ -119,8 +119,18 @@ footer{
     color: white;
     font-size: 0.8em;
 }
+.logo1 {
+    color: azure;
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+span {
+    color: rgb(218, 128, 12);
+}
 
 footer span{
+    color: white;
     margin-left: 20px;
     padding-right: 25px;
     float: left;

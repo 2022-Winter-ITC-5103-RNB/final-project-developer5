@@ -5,80 +5,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/stylef1.css">
+    <link rel="stylesheet" href="/css/stylef1.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="wrapper">
+    <header>
+        <h1>Kerala</h1>
+    </header>
+    <main>
+        <section>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/html/index1.html">Home</a></li>
+                    <li><a href="/html/index1.html">Overview</a></li>
+                    <li><a href="/html/index2.html">Itenary</a></li>
+                    <li><a href="/html/index3.html">Other Details</a></li>
+                    <h2 class="logo1"><span>Ex</span>plore More!</h2>
+                </ul>
+            </nav>
+        </section>
+        <div class="wrapper">
 
-        <form onsubmit="return validate()" novalidate>
-            <fieldset class="fs">
-                <h1>Book Trip</h1>
-                <!-- <div id="error_1"></div> -->
+            <form onsubmit="return validate()" novalidate>
+                <fieldset class="fs">
+                    <h1>Book Trip</h1>
+                    <!-- <div id="error_1"></div> -->
 
-                <div class="form-group">
+                    <div class="form-group">
 
-                    <label for="fname" id="fn">First name:</label>
-                    <input type="text" id="fname" name="fname" required minlength="2" maxlength="8">
-                    <div id="cname" class="emsg"></div>
-                </div>
-                <!-- <error class="er">Enter Valid First Name</error> -->
-
-
-                <div class="form-group">
-                    <label for="lname" id="ln">Last name:</label>
-                    <input type="text" id="lname" name="lname" required minlength="2" maxlength="8">
-                    <div id="cname1" class="emsg"></div>
-                </div>
-
-                <div class="form-group">
-                    <label for="start" id="sd">Start date:</label>
-                    <input type="date" id="start" name="trip-start">
-
-                </div>
-
-
-                <div class="form-group">
-                    <label for="end" id="ed">End date:</label>
-                    <input type="date" id="end" name="trip-end" required min="1" max="12">
-                </div>
-
-                <div class="form-group">
-                    <label for="email" id="ei">Enter your email:</label>
-                    <input type="email" id="emailid">
-                    <p id="demo1"></p>
-                </div>
+                        <label for="fname" id="fn">First name:</label>
+                        <input type="text" id="fname" name="fname" required minlength="2" maxlength="8">
+                        <div id="cname" class="emsg"></div>
+                    </div>
+                    <!-- <error class="er">Enter Valid First Name</error> -->
 
 
-                <div class="form-group">
-                    <label for="mnumber" id="mn"> Mobile Number:</label>
-                    <input type="mnumber" id="mnumber">
-                    <p id="demo"></p>
-                </div>
+                    <div class="form-group">
+                        <label for="lname" id="ln">Last name:</label>
+                        <input type="text" id="lname" name="lname" required minlength="2" maxlength="8">
+                        <div id="cname1" class="emsg"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="start" id="sd">Start date:</label>
+                        <input type="date" id="start" name="trip-start">
+
+                    </div>
 
 
-                <div class="form-group">
-                    <label for="package" id="cp">Choose a package : </label>
-                    <select id="package" name="package">
-                        <option value="at">Air Tour Package</option>
-                        <option value="gt">Ground Tour Package</option>
-                        <option value="st">Solo Tour Package</option>
-                        <option value="ct">Custom Tour Package </option>
-                    </select>
-                </div>
+                    <div class="form-group">
+                        <label for="end" id="ed">End date:</label>
+                        <input type="date" id="end" name="trip-end" required min="1" max="12">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" id="ei">Enter your email:</label>
+                        <input type="email" id="emailid">
+                        <p id="demo1"></p>
+                    </div>
 
 
-                <div class="form-group">
-                    <input class="favorite styled" type="submit" value="Book Trip"></input>
-                </div>
+                    <div class="form-group">
+                        <label for="mnumber" id="mn"> Mobile Number:</label>
+                        <input type="mnumber" id="mnumber">
+                        <p id="demo"></p>
+                    </div>
 
 
-        </form>
-        </fieldset>
-    </div>
+                    <div class="form-group">
+                        <label for="package" id="cp">Choose a package : </label>
+                        <select id="package" name="package">
+                            <option value="at">Air Tour Package</option>
+                            <option value="gt">Ground Tour Package</option>
+                            <option value="st">Solo Tour Package</option>
+                            <option value="ct">Custom Tour Package </option>
+                        </select>
+                    </div>
 
-    <script src="../JavaScripts/form11.js"></script>
+
+                    <div class="form-group">
+                        <input class="favorite styled" type="submit" value="Book Trip"></input>
+                    </div>
+
+
+            </form>
+            </fieldset>
+        </div>
+        <footer>
+            <span>
+                <h4>MAIL US AT :</h4>
+                <p>Tours and Travels Ltd <br> Kerala Office, Kerala </p>
+            </span>
+
+            <span1>
+                <h4>CALL US AT :</h4>
+                <p>+91 6541412536 (Office) <br>+91 8754785478 (Manager)</p>
+            </span1>
+
+            <span2>
+                <h4>WRITE TO US AT :</h4>
+                <p><a href="emailto:tours.travels.kerala@toursandtravels.com" style="color: white;">
+                        tours.travels.kerala@toursandtravels.com</a><br>
+                    <a href="emailto:info.kerala@toursandtravels.com" style="color: white;">
+                        info.kerala@toursandtravels.com</a></a><br>
+                </p>
+            </span2>
+
+            <br> Copyrights @Tours and Travels.
+        </footer>
+
+        <script src="../JavaScripts/form11.js"></script>
 </body>
 
 </html>

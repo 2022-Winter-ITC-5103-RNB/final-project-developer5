@@ -11,24 +11,41 @@
     </head>
     <div class="tiledBackground">
       <body>
-          <h1>Kathmandu Valley Tour</h1>
           <header>
+              <div class="main">
+                 <nav>
+                      <ul>
+                          <li style="padding-right: 5px;"><a href="firstpage.html">Home</a></li>
+                          <li style="padding-right: 5px;"><a href="firstpage.html" class="current">Destination</a>
+                              <ul>
+                                  <li><a href="mumbai.html">Mumbai</a></li>
+                                  <li><a href="index1.html">Kerela</a></li>
+                                  <li><a href="project1.html">Goa</a></li>
+                                  <li><a href="index_ja.html">Ahmedabad</a></li>
+                                  <li><a href="overview.html">Kathmandu</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="contact_us.html">About us</a></li>
+                      </ul>
+                 </nav>
+                 <h2 style="font-size: large; color: black;" class="logo1"><span style="color: rgb(218, 128, 12); font-size: large;">Ex</span>plore More!</h1>
+              </div>
+              <h1>The Kathmandu Valley Tour</h1>
               <script>
                   const today = new Date();
                   document.write(`Today's Date: ${today.toDateString()}.`);
               </script>
-              <nav>
+              <nav id="nav_menu">
                   <ul>
-                     <li><a href="firstpage.html">Home</a></li>
-                     <li><a href="overview.html">Overview</a></li>
-                     <li><a href="itinerary.html">Itinerary</a>
-                     <li><a href="cost.html">Cost & Other Details</a></li>
+                      <li><a href="overview.html">Overview</a></li>
+                      <li><a href="itinerary.html">Itinerary</a>
+                      <li><a href="cost.html">Cost & Other Details</a></li>
                   </ul>
               </nav>
-          </header>
+          </header>   
           <main>
               <section>
-                  <h2 style="margin-top: 0px;">The Cost Includes:</h2>
+                  <h2 style="margin-top: 0px; font-size: 115%;">The Cost Includes:</h2>
                   <ul style="padding-left: 15px;">
                      <li>Five nights best five star hotel accomodation including breakfast</li>
                      <li>Guided sightseeing</li>
@@ -37,12 +54,12 @@
                  </ul>
               </section>
         
-              <h3 style="padding-top:1px;">The Cost Doesn't Include:</h3>
+              <h3 style="padding-top:1px; font-size: 115%;">The Cost Doesn't Include:</h3>
               <ul style="padding-left: 15px;">
                    <li>Lunch and Dinner</li>
                    <li>Other personal expenses</li>
               </ul>
-              <h2 style="margin-top:70px; padding-top:1px; padding-left: 15px;"><strong>Food Information:</strong></h2>
+              <h2 style="margin-top:70px; padding-top:1px; padding-left: 15px; font-size: 115%;"><strong>Food Information:</strong></h2>
               <p style="padding-left: 15px;"><strong>Breakfast:</strong> The daily breakfast will be provided by our company for each person for each day during the trip. The breakfast will include both vegetarian and nonvegetarian options. Besides this, we can also make arrangement for vegan foods.</p>
               <p style="padding-left: 15px;"><strong>Lunch and Dinner:</strong> Since the cost of the trip includes only the daily breakfast, every traveler will have to arrange for their own lunch and dinner. Some of the recommended places around the city of Kathmandu where you can get all kind of cuisines and meals are listed bellow: </p>
               <table>
@@ -84,7 +101,7 @@
                       </tbody>
                   </thead>
               </table>
-              <h2 style="margin-top: 15px; padding-left: 15px;">Healthcare Information:</h2>
+              <h2 style="margin-top: 15px; padding-left: 15px; font-size: 115%;">Healthcare Information:</h2>
               <p style="margin-top: 10px; padding-left: 15px;">All the travelers will be provided the health insurance for the trip period by our company.  Any unfortunate accidents or health concerns during the trip will be treated in the best hospitals in the city at no extra expenses. </p>
               <nav>
                   <ul>
@@ -95,7 +112,7 @@
               </nav>
                     
               <aside>
-                  <h2 style="margin-top: 10px;">Important Links:</h2>
+                  <h2 style="margin-top: 10px; font-size: 115%;">Important Links:</h2>
                      <ul style="margin-top: 10px;">
                          <li><a href="booking.html">Book the Trip</a></li>
                          <li><a href="customize.html">Customize your Trip</a></li>
@@ -105,7 +122,7 @@
                          <li><a href="../documents/Travel.pdf"target="_blank">Print This PDF</a></li>
                      </ul>
               </aside>  
-              <h4>Subscribe a Newsletter Below:</h3>
+              <h4 style="font-size: 115%;">Subscribe a Newsletter Below:</h3>
               <form id="newsLetter" action="subscription1.html" method="get">
                   <fieldset>
                       <label for="name"></label>

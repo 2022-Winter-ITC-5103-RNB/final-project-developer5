@@ -1,4 +1,4 @@
-let myImagesArray = ["assets\1.jpg", "assets\2.jpg", "assets\3.jpg"];
+let myImagesArray = ["../Images/1.jpg", "../Images/2.jpg", "../Images/4.jpg"];
 let ImageNumber = 0;
 let difference = myImagesArray.length -1;
 let delay = 2000; 

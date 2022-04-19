@@ -131,6 +131,15 @@ nav a {
     text-decoration: none;
 
 }
+.logo1 {
+    color: azure;
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+span {
+    color: rgb(218, 128, 12);
+}
 
 /* footer {
     background-color: #202849;
@@ -151,6 +160,7 @@ footer {
 }
 
 footer span {
+    color: white;
     margin-left: 20px;
     padding-right: 25px;
     float: left;
@@ -230,6 +240,7 @@ section .gateway {
         border-left-style: hidden;
         border-bottom-style: hidden;
     }
+    
 
 
 }
