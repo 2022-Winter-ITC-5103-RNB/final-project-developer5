@@ -4,9 +4,9 @@ var i = 0
 var images = [];
 var time = 2000;
 
-images[0] = '../Images/place1.jpg';
-images[1] = '../Images/nal2.jpg';
-images[2] = '../Images/nal3.jpg';
+images[0] = './Images/place1.jpg';
+images[1] = './Images/nal2.jpg';
+images[2] = './Images/nal3.jpg';
 
 function changeImg(){
   document.slide1.src = images[i];
@@ -26,9 +26,9 @@ window.onload = changeImg;
 //For 2nd Place image
 var  images2 = [];
 
-images2[0] = '../Images/AdalajniVav.jpg';
-images2[1] = '../Images/ada2.jpg';
-images2[2] = '../Images/ada3.jpg';
+images2[0] = './Images/AdalajniVav.jpg';
+images2[1] = './Images/ada2.jpg';
+images2[2] = './Images/ada3.jpg';
 
 var i2 = 0;
 function changeImg2(){
@@ -51,9 +51,9 @@ changeImg2()
 
 var  images3 = [];
 
-images3[0] = '../Images/Polo-Forest.jpg';
-images3[1] = '../Images/polo2.jpg';
-images3[2] = '../Images/polo3.jpg';
+images3[0] = './Images/Polo-Forest.jpg';
+images3[1] = './Images/polo2.jpg';
+images3[2] = './Images/polo3.jpg';
 
 var i3 = 0;
 function changeImg3(){
